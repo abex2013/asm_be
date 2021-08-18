@@ -5,9 +5,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Asset.Domain.Entities
+namespace Asset.Domain.Models
 {
-    public class Category : BaseEntity
+    public class CategoryModel : BaseAuditModel
     {
         public string CategoryName { get; set; }
         public string Description { get; set; }

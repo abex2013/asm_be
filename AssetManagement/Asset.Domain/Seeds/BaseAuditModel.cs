@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Asset.Domain.Seeds
 {
-    public abstract class BaseEntity : BaseAuditModel
+    public abstract class BaseAuditModel
     {
         public Guid Guid { get; set; }
         public bool IsActive { get; set; }
