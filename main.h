@@ -1,3 +1,3 @@
 #include <stdliob>
 void main();
-void printf(int val);
+void printf(int * val);
